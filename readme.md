@@ -29,6 +29,7 @@ GitHub va détecter automatiquement le dossier `.github/workflows` et nous propo
 
 ## 3 - Ajouter une étape de Tests
 Pas besoin de cloner le repo en local, on peut faire toute nos modifs dans l'interface GitHub. (Apres c'est comme vous voulez si vous etes un Git commande fan 🙈 )
+
 Ajoutant ces ligne à la fin de notre fichier `ci.yaml`
 ```yaml
     - name: Run Tests
@@ -36,7 +37,9 @@ Ajoutant ces ligne à la fin de notre fichier `ci.yaml`
 ```
 ## 4 - Ajouter une étape de publication de Tests
 
-Dans cette partie on va utiliser un tempate d'action.`dorny/test-reporter@v1` va nous permetre depublier les résultats des tests exportés dans l'étape présedente dans une intérface graphique qu'on peut consulter au niveau de notre CI.
+Dans cette partie on va utiliser un tempate d'action.
+
+[`dorny/test-reporter@v1`](https://github.com/dorny/test-reporter) va nous permetre de publier les résultats des tests exportés dans l'étape précédente dans une intérface graphique qu'on peut consulter au niveau de notre CI.
 
 Rajoutant ces lignes à la fin de notre fichier `ci.yml`
 
@@ -50,10 +53,12 @@ Rajoutant ces lignes à la fin de notre fichier `ci.yml`
         reporter: dotnet-trx
 ```
 
-⚠️ N'oubiliez pas de faire un commit pour enregister toute les modifications qu'on vient de faire sur notre pipeline 
+⚠️ N'oubiliez pas de faire un commit pour enregister toutes les modifications qu'on vient de faire sur notre pipeline.
 
 ## 5 - Executer le nouveau workflow CI
 
 Normalement, la nouvelle pipeline se lancera automatiquement si vous avez fait le commit directement sur votre branche main.
+
+// Ajout image resulat
 
 C'est bon vous pouvez ajouter Github Actions dans votre CV 🥳🥳
