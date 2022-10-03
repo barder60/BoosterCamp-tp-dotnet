@@ -59,6 +59,7 @@ Rajoutant ces lignes à la fin de notre fichier `ci.yml`
 
 Normalement, la nouvelle pipeline se lancera automatiquement si vous avez fait le commit directement sur votre branche main.
 
-// Ajout image resulat
+![alt](https://user-images.githubusercontent.com/2827484/193114586-fb47ff62-092a-4bef-a13d-7af177e9702b.png)
 
+s
 C'est bon vous pouvez ajouter Github Actions dans votre CV 🥳🥳
