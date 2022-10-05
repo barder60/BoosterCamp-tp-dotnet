@@ -25,7 +25,7 @@ GitHub va détecter automatiquement le dossier `.github/workflows` et nous propo
 ![](./readmeContent/02.png)
 
 📝 La definition de notre CI est dans le fichier 
-[`.github/workflows/ci.yml`](https://github.com/ahdbk/BoosterCamp-tp-dotnet/blob/main/.github/workflows/ci.yml)
+`.github/workflows/ci.yml`
 
 ## 3 - Ajouter une étape de Tests
 Pas besoin de cloner le repo en local, on peut faire toute nos modifs dans l'interface GitHub. (Apres c'est comme vous voulez si vous etes un Git commande fan 🙈 )
