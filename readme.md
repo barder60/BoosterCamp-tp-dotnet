@@ -53,7 +53,7 @@ Rajoutant ces lignes à la fin de notre fichier `ci.yml`
       if: success() || failure()     
       with:
         name: Test report             
-        path: './MyWeatherApi.Tests/TestResults/*.trx'
+        path: './src/Soat.AntiGaspi.Api.Tests/TestResults/*.trx'
         reporter: dotnet-trx
 ```
 
