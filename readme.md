@@ -30,7 +30,7 @@ GitHub va détecter automatiquement le dossier `.github/workflows` et nous propo
 ## 3 - Ajouter une étape de Tests
 Pas besoin de cloner le repo en local, on peut faire toute nos modifs dans l'interface GitHub. (Apres c'est comme vous voulez si vous etes un Git commande fan 🙈 )
 
-Ajoutant ces ligne à la fin de notre fichier `ci.yaml`
+Ajoutant ces lignes à la fin de notre fichier `ci.yaml`
 ```yaml
     - name: Run Tests
       run: dotnet test -c Release --no-build --verbosity normal -l:trx;LogFileName=TestOutput.trx
