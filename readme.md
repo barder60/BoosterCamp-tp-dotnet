@@ -35,6 +35,10 @@ Ajoutant ces lignes à la fin de notre fichier `ci.yaml`
     - name: Run Tests
       run: dotnet test -c Release --no-build --verbosity normal -l:trx;LogFileName=TestOutput.trx
 ```
+
+⚠️ N'oubiliez pas de faire un commit pour enregister toutes les modifications qu'on vient de faire sur notre pipeline.
+
+On va voir qu'il y a un workflow qui se lance dans la tab **Actions** avec une nouvelle step de testes
 ## 4 - Ajouter une étape de publication de Tests
 
 Dans cette partie on va utiliser un tempate d'action.
