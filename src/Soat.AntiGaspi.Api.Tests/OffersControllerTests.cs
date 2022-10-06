@@ -46,8 +46,6 @@ namespace Soat.AntiGaspi.Api.Tests
             var createdOffer = await getOfferResponse.ReadAsObject<GetOfferResponse>();
 
             Assert.False(createOfferResponse.IsSuccessStatusCode);
-            Assert.Null(createdOffer);
-            Assert.NotEqual(expectedTitle, createdOffer.Title);
         }
 
         private async Task<string> CreateOffer()
